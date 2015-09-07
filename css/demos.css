@@ -1,0 +1,421 @@
+body 
+{
+    margin:0px;
+	padding:20px;
+	font-size:14px;
+	line-height:14px;
+	/*background-color:green;*/	
+}
+.AllDemos
+{
+	font-size:12px;
+}
+h3
+{
+	font-size:16px;
+}
+
+.ClearFloat{
+	clear:both;
+}
+
+#BehaviourPlugins, #Content2, #Content3, #Content4
+{
+	margin-bottom:10px;
+}
+
+.InterfaceQueryExampleDescription
+{
+	font-size:1.2em;
+	margin:10px 0px;
+}
+
+.AllDemos .iq-tabs .iq-multiview-view
+{
+	padding:30px;
+	min-height:200px;
+}
+
+#TabsHorizontalTop .iq-multiview-view,
+#TabsHorizontalBottom .iq-multiview-view,
+#TabsVerticalLeft .iq-multiview-view,
+#TabsVerticalRight .iq-multiview-view,
+#TabsLeftRight .iq-multiview-view
+{
+	padding:30px;
+	min-height:75px;
+}
+
+.ExampleLog
+{
+	width:700px;
+	height: 150px;
+	overflow-y: scroll;
+	display:inline-block;	
+	font-size:10px;
+	border: solid 1px #999999;
+}
+
+/* Forward Events */
+#ForwardEventsExample
+{
+	position:relative;
+	width:660px;
+	height: 120px;
+	margin-bottom:20px;
+	padding:20px;	
+	border:solid 1px #999999;
+}
+#ForwardEventsElement1, #ForwardEventsElement2
+{
+	width:75px;
+	height:75px;
+	background: #EEEEFF;
+	border: solid 1px #C0C0C0;
+	display:inline-block;
+	vertical-align:top;	
+}
+.ForwardEventsElementHover
+{
+	background: #E0E0FF !important;
+	border: solid 1px #AAAAAA !important;
+}
+.ForwardEventsElementClick
+{
+	background: #FFEEEE !important;	
+}
+
+#ForwardEventsOverlay
+{
+	width:75px;
+	height:75px;
+	background: #999999;
+	position: absolute;
+	top:60px;
+	left:62px;	
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	
+}
+
+/* Movable */
+.MultiMovableExample
+{
+	width:600px;
+    height:160px;
+}
+.MultiMovableExample .MovableContainer
+{
+    width:600px;
+    height:120px;
+    padding:20px;
+    border:solid 1px #999999;  
+}
+ 
+.MultiMovableExample .MovableElement
+{
+    background:#E0E0E0;
+    width:75px;
+    height:30px;
+    border:solid 1px #999999;    
+}
+.MultiMovableExample .iq-selectable-focused {
+    border:solid 1px #333333;  
+}
+.MultiMovableExample .iq-selectable-selected {
+    background:#999999;    
+    border:solid 1px #000000;
+}
+
+/* Dom Movable Example */
+.DomMovableExample  li
+{
+	list-style:inherit;
+}
+.DomMovableExampleContainer
+{
+	width:650px; 
+	height:200px; 	
+	border: solid 1px black;
+	overflow:auto;
+}
+
+.DomMovableElement{
+	width:75px; 
+	height:40px;
+	margin: 5px;	
+	background:#CCCCCC;
+	border:solid 3px #999999; 
+	float:left;
+}
+
+.DomMovableExampleContainer .iq-selectable-focused {
+	border:solid 3px #333333;	
+}
+.DomMovableExampleContainer .iq-selectable-selected {
+	background:#999999;		
+	border:solid 3px #000000;
+}
+.DomMovableExampleContainer .iq-selectable-selecting{
+	background:#999999;		
+	border:solid 3px #000000;
+}
+
+/* No Select */
+#NoSelectExample
+{
+    width:600px;
+    height:120px;
+    padding:20px;
+    border:solid 1px #999999;  
+}
+
+/* Resizable */
+#ResizableExample{
+  width:600px;
+  height:250px;
+  background:#EEEEFF;
+  position:relative;
+  border:solid 1px #999999;
+}
+#ResizableElementBottomRight{
+  position:absolute;
+  top:0%; left:0%;
+  z-index:1000;
+  width:120px;
+  height:120px;
+  background:#E0E0E0; 
+}
+#ResizableElementTopLeft{ 
+ position:absolute;
+  bottom:0%; right:0%;
+  z-index:1000;
+  width:100px;
+  height:100px;
+  background:#E0E0E0;  
+}
+
+/* Scrollable */
+#ScrollableExample{
+	width:250px;
+	height:250px;
+	overflow: auto;
+}
+#ScrollableContent{
+	width:500px;
+	height:400px;
+}
+
+/* CSS Rule */
+#CssRuleExampleElement
+{
+    border: 1px solid #999999;
+    width:200px;
+    height:150px;
+    padding:10px;
+}
+
+/* Class Utilities */
+.BorderClass
+{
+    border: 1px solid #999999;
+} 
+.BackgroundClass
+{
+    background:#EEEEEE;
+}
+
+/* Multiview */
+.MultiviewExample
+{
+    width:300px;
+    height:70px;   
+    border:solid 1px #999999;
+    overflow:hidden;
+}
+#HorizontalMultiview:after {
+    clear: both;
+}
+#HorizontalMultiview:before,
+#HorizontalMultiview:after {
+    content: "";
+    display: table;
+}
+#HorizontalMultiview
+{
+    height:70px;
+    width:1210px;
+	border:none;
+} 
+#HorizontalMultiview div
+{
+    width:260px;
+    height:30px;
+    padding:5px;
+    margin: 15px;
+    border: 1px solid #999999;
+    float:left;
+	min-height:auto;
+} 
+#VerticalMultiview
+{
+	border:none;
+}
+#VerticalMultiview div
+{
+    width:260px;
+    height:30px;
+    padding:5px;
+    margin: 15px;
+    border: 1px solid #999999;
+	min-height:auto;
+}
+
+/* Scroll To */
+.ScrollToExample
+{
+    overflow : scroll;
+    width:450px;
+    height:300px;
+    border: solid 1px #999999;  
+}
+ 
+.ScrollToExampleContainer
+{
+    width:1000px;
+}
+ 
+.ScrollToElement
+{
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border: solid 5px #999999;
+    float:left;
+}
+
+/* Scroll Parent */
+#ScrollParentExample div
+{
+	padding:10px;
+	border:1px solid #999999;
+}
+
+#PositionElement1
+{
+	padding:10px;
+	border:1px solid #999999;
+	height:20px;
+}
+#PositionElement2
+{
+	padding:5px;
+	border:1px solid #999999;
+	height:15px;
+	position:relative;		
+	width:100px;
+	left:0px;
+	top:0px;
+}
+
+/* Selectable */
+
+#SelectableExample
+{
+    width:700px;
+    height:300px;  
+    position:relative;
+    border: 1px solid #999999;
+}
+
+#SelectableExample .iq-selectable-selected, 
+#SelectableExample .iq-selectable-selecting
+{
+    background:#999999;    
+    border:solid 3px #000000;
+}
+#SelectableExample .iq-selectable-focused
+{  
+    border:solid 3px #333333;  
+}
+.SelectableElement, 
+#SelectableExample .iq-selectable-deselecting
+{
+    width:65px;
+    height:40px;
+    margin: 5px;   
+    background:#CCCCCC;
+    position:absolute;
+    border:solid 3px #999999;
+}
+
+/* Dialog */
+#DialogExample
+{
+	display:none;
+}
+
+/* Grid */
+#GridExample
+{	
+	width:400px;
+}
+
+/* Accordion */
+#AccordionExample
+{
+	width:200px;
+}
+
+/* ContextMenu */
+#ContextMenuExample
+{
+	width:200px;
+	height:100px;
+	border:1px solid #999999;
+}
+
+/* Drag */
+#DragExample
+{
+    width:400px;
+    height:150px;
+    border:solid 1px #999999;
+	padding:20px;
+}
+#DragHelper
+{
+    position:absolute;
+    border:solid 1px #999999;
+    display:none;
+	background: #F0F0F0;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+/* Mousewheel */
+#MousewheelExample
+{
+    width:200px;
+    height:150px;
+    border:solid 1px #999999;
+	padding:20px;
+}
+/* Property Change */
+#PropertyChangeExample
+{
+    width:125px;
+    height:125px;
+    background:#FAFAFA;
+	border: 1px solid #999999;
+	padding:20px;
+}
+
+/* Resize */
+#ResizeExample
+{
+    width:125px;
+    height:125px;
+    background:#EEEEEE;
+	border: 1px solid #999999;
+	padding:20px;
+}
